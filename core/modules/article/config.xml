@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config title="Статьи">
+	<description>Описание модуля статьи</description>
+	<params>
+		<item type="checkbox" default="1">
+			<key>all</key>
+			<title>Полный текст статьи в списке</title>	
+		</item>
+		<item type="checklist">
+			<key>anons</key>
+			<title>Анонс</title>
+			<item type="checkbox" default="1">
+				<key>title</key>
+				<title>Заголовок</title>
+			</item>
+			<item type="checkbox" default="1">
+				<key>photo</key>
+				<title>Фото</title>
+			</item>
+			<item type="text" default="100">
+				<key>anons_size</key>
+				<title>Количество символов в анонсе</title>
+			</item>
+		</item>
+	</params>
+</config>
+

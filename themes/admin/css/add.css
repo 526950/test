@@ -1,0 +1,86 @@
+li.sortable-placeholder {
+	border: 1px dashed #CCC;
+	background: none;
+	height: 30px;
+}
+
+#tree li {
+	list-style: none;
+	padding: 2px 0px;
+	vertical-align: middle;
+	line-height: 25px;
+}
+
+#tree li:nth-child(even) span {
+	background-color: #f3f3f3;
+}
+
+.pin {
+	background-color: rgba(0, 0, 0, 0);
+	border-color: #333333;
+	color: #eee;
+	margin-top: 8px;
+	margin-left: -8px;
+	margin-right: 8px;
+	margin-top: 8px;
+}
+
+.navbar {
+	border: 0px
+}
+
+#sections li {
+	list-style: none;
+}
+
+ul.sub {
+	padding-left: 15px;
+}
+
+.control-group.form-group {
+	margin-right: 70px;
+}
+
+.editable-buttons {
+	margin-top: 1px;
+}
+
+.dashed {
+	text-decoration: none;
+	cursor: pointer;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+}
+
+.dashed:hover {
+	text-decoration: none !important;
+	border-bottom-style: none;
+}
+
+#option-section {
+	position: relative;
+	padding-left: 215px;
+}
+
+#option-section div.input-group {
+	position: absolute;
+	left: 0;
+}
+
+.editable-input span.name {
+	width: 75px;
+	display: inline-block;
+}
+.popover-content {    
+    width: 400px;
+}
+.editableform .control-group {
+    line-height: 30px !important;
+}
+#option-section .input-group-addon {
+    min-width: 38px;
+}
+.placeholder {
+	border:1px dashed #ccc;
+	height: 20px;
+}
